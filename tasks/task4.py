@@ -1,8 +1,13 @@
 # tasks/task4.py
 
-def solve():
+def solve():    
 # Ниже пишите решение задачи
-    
+    Fraza1 = input()
+    Fraza2 = input()
+    Fraza3 = input()
+
+    print(Fraza1, Fraza2, Fraza3, sep="---")
+
 
     
 

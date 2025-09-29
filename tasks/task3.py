@@ -1,8 +1,13 @@
 # tasks/task3.py
 
-def solve():
+def solve():    
 # Ниже пишите решение задачи
-    
+    Zet, Goida = map(int,input("Напиши два числа через пробел:").split())
+    Vsego = Zet + Goida - 1
+    Harry_promazal = Vsego - Zet
+    Larry_promazal = Vsego - Goida
+    print(Harry_promazal, Larry_promazal)
+
 
 
 # Код ниже не трогать! он нужен для тестов
