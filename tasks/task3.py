@@ -2,7 +2,7 @@
 
 def solve():    
 # Ниже пишите решение задачи
-    Zet, Goida = map(int,input("Напиши два числа через пробел:").split())
+    Zet, Goida = map(int,input().split())
     Vsego = Zet + Goida - 1
     Harry_promazal = Vsego - Zet
     Larry_promazal = Vsego - Goida
